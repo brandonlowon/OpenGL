@@ -1,0 +1,3 @@
+﻿  Application.cpp
+C:\Users\blow-on\OpenGL Fun\OpenGL\OpenGL\src\Application.cpp(137,31): warning C4390: ';': empty controlled statement found; is this the intent?
+  OpenGL.vcxproj -> C:\Users\blow-on\OpenGL Fun\OpenGL\Debug\OpenGL.exe
