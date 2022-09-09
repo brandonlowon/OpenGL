@@ -58,6 +58,13 @@ int main(void)
             2, 3, 0,
         };
 
+        // First thing you need to do to enable Blending
+        GLCall(glEnable(GL_BLEND));
+
+        // src is how the src RGBA factor is computed (default is GL_ONE)
+        // dest is how the dest RGBA factor is computed (default is GL_ZERO)
+        GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+       
         VertexArray va;
         VertexBuffer vb(positions, 4 * 4 * sizeof(float));
         VertexBufferLayout layout;
